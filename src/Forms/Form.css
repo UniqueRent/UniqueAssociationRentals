@@ -1,0 +1,262 @@
+.form {
+    background: #fff;
+    width: 70%;
+    margin: auto;
+    padding: 20px;
+    box-shadow: 0 14px 28px rgba(133, 131, 131, 0.25);
+}
+
+p{
+margin-top: 5px !important;
+}
+
+.form h1 {
+    font-size: 1.6rem;
+}
+
+.form h2 {
+    font-size: 1.24rem;
+    padding-bottom: 10px;
+}
+
+.form span {
+    color: #af0000;
+}
+
+.form .part {
+    display: flex;
+    gap: 8px;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+.part label {
+    font-weight: 600;
+    font-size: 0.9rem;
+}
+
+label::after {
+    content: " ";
+}
+
+input[type="text"],
+input[type="number"],
+input[type="date"],
+input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    outline: none;
+    border: 1px solid #a7a5a2af;
+    font-family: sans-serif !important;
+    font-weight: 500;
+    letter-spacing: -0.5px;
+}
+
+input[type="date"]::-webkit-datetime-edit-fields-wrapper {
+    color: #1b1b1aaf;
+}
+
+input::placeholder {
+    color: #a7a5a2af;
+    font-weight: 300;
+}
+
+.name-input input {
+    margin-bottom: 15px;
+}
+
+.inputs input {
+    margin-bottom: 15px;
+}
+
+.city input {
+    margin-bottom: 15px;
+}
+
+.radio-input {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.radio-input label {
+    flex: 1;
+    display: flex;
+    gap: 4px;
+    font-family: sans-serif !important;
+    font-weight: 400;
+}
+
+.yesno-input {
+    display: flex;
+    gap: 20px;
+}
+
+.yesno-input label{
+    display: flex;
+    gap: 10px;
+}
+
+button{
+    background: #ec0909;
+    color: white;
+    padding: 0.7rem 1.2rem;
+    border: none;
+    border-radius: 5px;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+/* xs */
+/* @media (min-width: 475px) {} */
+
+/* sm */
+@media (min-width: 640px) {
+    .radio-input label {
+        gap: 6px;
+    }
+
+    .radio-input {
+        gap: 30px;
+    }
+}
+
+/* md */
+@media (min-width: 768px) {
+    .form h1 {
+        font-size: 2rem;
+    }
+
+    .form h2 {
+        font-size: 1.5rem;
+    }
+
+    .form .part {
+        gap: 15px;
+        margin-bottom: 25px;
+    }
+
+    .part label {
+        font-weight: 700;
+        font-size: 1rem;
+    }
+
+    input[type="text"],
+    input[type="number"],
+    input[type="date"],
+    input[type="email"] {
+        padding: 15px;
+        letter-spacing: -0.1px;
+    }
+
+    input[type="date"]::-webkit-datetime-edit-fields-wrapper {
+        color: #1b1b1ac5;
+    }
+
+    input::placeholder {
+        color: #504f4daf;
+        font-weight: 300;
+    }
+
+    .name-input {
+        display: flex;
+        gap: 10px;
+    }
+
+    .name-input input {
+        margin-bottom: 10px;
+    }
+
+    .inputs input {
+        margin-bottom: 15px;
+    }
+
+    .city input {
+        margin-bottom: 15px;
+    }
+
+    .radio-input {
+        gap: 20px;
+    }
+
+    .radio-input label {
+        gap: 4px;
+        font-weight: 500;
+
+    }
+    
+}
+
+/* lg */
+@media (min-width: 1024px) {
+    .form h1 {
+        font-size: 2.2rem;
+    }
+
+    .part label {
+        font-weight: 700;
+        font-size: 1.1rem;
+    }
+
+    .radio-input {
+        gap: 20px;
+        width: 60%;
+    }
+
+    .radio-input label {
+        gap: 4px;
+        font-weight: 400;
+    }
+}
+
+/* xl */
+@media (min-width: 1280px) {
+    .form h1 {
+        font-size: 2.5rem;
+    }
+
+    .form h2 {
+        font-size: 1.7rem;
+    }
+
+    .form .part {
+        gap: 15px;
+        margin-bottom: 25px;
+    }
+
+    .part label {
+        font-weight: 700;
+        font-size: 1rem;
+    }
+
+    .radio-input {
+        gap: 20px;
+        width: 70%;
+    }
+    
+    .radio-input label {
+        gap: 4px;
+        font-weight: 400;
+    }
+}
+
+/* 2xl */
+@media (min-width: 1536px) {
+    .form h1 {
+        font-size: 2.7rem;
+    }
+
+
+}

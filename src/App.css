@@ -1,0 +1,36 @@
+
+
+/* xs */
+/* @media (min-width: 475px) {} */
+
+/* sm */
+@media (min-width: 640px) {
+  .app{
+    padding: 0 10%;
+    background: hsla(36, 3%, 65%, 0.686);
+  }
+}
+
+/* md */
+/* @media (min-width: 768px) {} */
+
+/* lg */
+@media (min-width: 1024px) {
+  .app{
+    padding: 0 12%;
+  }
+}
+
+/* xl */
+@media (min-width: 1280px) {
+  .app{
+    padding: 0 15%;
+  }
+}
+
+/* 2xl */
+@media (min-width: 1536px) {
+  .app{
+    padding: 0 20%;
+  }
+}
